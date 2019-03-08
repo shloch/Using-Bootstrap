@@ -1,5 +1,5 @@
 # Using-Bootstrap
-This project aims to create a replica of [Newsweek](https://www.newsweek.com/) website.
+This project aims to create a replica of [Newsweek](https://www.newsweek.com/) website.  
 It is part of [Microverse](https://www.microverse.org/) curriculum.
 ## Contributors
   - Louis SHEY _https://github.com/shloch_
