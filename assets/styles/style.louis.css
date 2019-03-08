@@ -1,0 +1,65 @@
+.row-title {
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 0.5em;
+    text-align: center;
+    font: bold 20px/20px "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 0.9375em;
+}
+
+.row div[class*='col-'] {}
+
+.in-magazine {
+    padding: 0 1.625em;
+    margin-bottom: 2em;
+}
+
+.in-magazine div[class*='col-'] img {
+    width: 100%;
+}
+
+.in-magazine div[class*='col-'] ul,
+.in-magazine div[class*='col-'] ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.in-magazine div[class*='col-'] ul {
+    width: 100%;
+    text-align: left;
+    padding-left: 0;
+    margin-top: 0.625em;
+}
+
+.in-magazine div[class*='col-'] ul li.red-title-1 {
+    color: white;
+    padding: 1% 2%;
+    font: bold 16px/26px "Roboto Condensed", sans-serif;
+    background-color: #f72210;
+    text-transform: uppercase;
+}
+
+.in-magazine div[class*='col-'] ul li.red-title-2 {
+    padding: 1% 4%;
+    font: bold 16px/26px "Roboto Condensed", sans-serif;
+    color: #f72210;
+    text-transform: uppercase;
+}
+
+.in-magazine div[class*='col-'] h5 {
+    font-family: "Roboto Condensed", sans-serif;
+    margin-bottom: 0.625em;
+    position: relative;
+    color: #000;
+    font-size: 1.25em;
+    line-height: 1.25em;
+    font-weight: bold;
+}
+
+.in-magazine div[class*='col-'] h5:hover {
+    text-decoration: underline;
+    text-decoration-color: #f72210;
+    cursor: pointer;
+}
