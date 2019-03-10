@@ -1,294 +1,357 @@
-        h1,
-        h2,
-        h3,
-        h4,
-        h5,
-        h6 {
-            font-family: "Roboto Condensed", sans-serif;
-            margin-bottom: 0.625em;
-            color: #000;
-        }
-        
-        h2[class="red-class-heading"] {
-            color: #f72210;
-            padding: 0 0.625em;
-        }
-        
-        body {
-            color: #333;
-            font-size: 0.9225em;
-            line-height: 1.125em;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        
-        .row-title {
-            border-bottom: 1px solid #d9d9d9;
-            padding-bottom: 0.5em;
-            text-align: center;
-            font: bold 20px/20px "Roboto Condensed", sans-serif;
-            text-transform: uppercase;
-            width: 95%;
-            margin: auto;
-            margin-bottom: 0.9375em;
-        }
-        
-        .row div[class*='col-'] {}
-        
-        .in-magazine {
-            padding: 0 1.625em;
-            margin-bottom: 2em;
-        }
-        
-        .in-magazine div[class*='col-'] img {
-            width: 100%;
-        }
-        
-        .in-magazine div[class*='col-'] ul,
-        .in-magazine div[class*='col-'] ul li {
-            list-style: none;
-            display: inline-block;
-        }
-        
-        .in-magazine div[class*='col-'] ul {
-            width: 100%;
-            text-align: left;
-            padding-left: 0;
-            margin-top: 0.625em;
-        }
-        
-        .in-magazine div[class*='col-'] ul li.red-title-1 {
-            color: white;
-            padding: 1% 2%;
-            font: bold 16px/26px "Roboto Condensed", sans-serif;
-            background-color: #f72210;
-            text-transform: uppercase;
-        }
-        
-        .in-magazine div[class*='col-'] ul li.red-title-2 {
-            padding: 1% 4%;
-            font: bold 16px/26px "Roboto Condensed", sans-serif;
-            color: #f72210;
-            text-transform: uppercase;
-        }
-        
-        .in-magazine div[class*='col-'] h5 {
-            font-family: "Roboto Condensed", sans-serif;
-            margin-bottom: 0.625em;
-            position: relative;
-            color: #000;
-            font-size: 1.25em;
-            line-height: 1.25em;
-            font-weight: bold;
-        }
-        
-        .in-magazine div[class*='col-'] h5:hover {
-            text-decoration: underline;
-            text-decoration-color: #f72210;
-            cursor: pointer;
-        }
-        /******* EDITORS PICK ************/
-        
-        .editors-pick {
-            padding: 0 1.625em;
-            margin-bottom: 1.1375em;
-        }
-        
-        .editors-pick img.editor-img {
-            width: 100%;
-        }
-        
-        .editors-pick article h4 {
-            border: 0;
-            padding: 0;
-            display: block;
-            font: bold 17px/16px "Roboto Condensed", sans-serif;
-            color: #f72210;
-            text-transform: uppercase;
-            padding: 0.9375em 25px 10px 19px;
-            margin-bottom: 13.1295em;
-            background-color: rgba(255, 255, 255, .9);
-            position: absolute;
-            bottom: 0;
-            left: 3;
-            z-index: 1;
-        }
-        
-        .editors-pick h3,
-        .slideshows h3 {
-            font-size: 24px;
-            line-height: 24px;
-            margin-bottom: .5rem;
-            font-weight: 900;
-            margin-top: 0.625em;
-        }
-        
-        .editors-pick h3:hover,
-        .main-side-news h3:hover,
-        .slideshows h3:hover,
-        .subscribe-block .themed-grid-col article h4:hover {
-            text-decoration: underline;
-            text-decoration-color: #f72210;
-            cursor: pointer;
-        }
-        /*<!--________FEATURED SLIDESHOWS____________-->*/
-        
-        .slideshows {
-            padding: 0 1.625em;
-            margin-bottom: 1.1375em;
-        }
-        
-        .slideshows .slideshow-pic {
-            width: 100%;
-        }
-        /*<!--________RED CLASS NEWS BLOCKS____________-->*/
-        
-        .main-side-news {
-            padding: 0 1.625em;
-            margin-bottom: 1.1375em;
-        }
-        
-        .main-side-news img {
-            width: 100%;
-        }
-        
-        .main-side-news .side-news hr {
-            clear: both;
-        }
-        
-        .main-side-news .side-news .themed-grid-col {
-            /***eliminate floating effect***/
-            content: "";
-            clear: both;
-            display: table;
-        }
-        
-        .main-side-news .side-news img {
-            float: left;
-            width: 34%;
-        }
-        
-        .main-side-news .side-news h4 {
-            font-size: 18px;
-            line-height: 24px;
-            font-weight: 900;
-            float: left;
-            width: 60%;
-            padding: 0% 0% 3% 5%;
-        }
-        
-        .main-side-news .side-news h4:hover {
-            color: #f72210;
-        }
-        /*<!--________SUBSCRIBE BLOCK____________-->*/
-        
-        .subscribe-block {
-            padding: 0 1.625em;
-            margin-bottom: 1.1375em;
-        }
-        
-        h6[class="subscribe-heading"] {
-            padding: 0 1.625em;
-            font-weight: 800;
-            color: #f72210;
-        }
-        
-        .subscribe-block .themed-grid-col {
-            /***eliminate floating effect***/
-            content: "";
-            clear: both;
-            display: table;
-        }
-        
-        .subscribe-block .themed-grid-col hr {
-            clear: both;
-        }
-        
-        .subscribe-block .themed-grid-col img {
-            float: left;
-            width: 30%;
-        }
-        
-        .subscribe-block .themed-grid-col article {
-            width: 65%;
-            float: left;
-            margin-left: 3.5%;
-        }
-        
-        .subscribe-block .themed-grid-col article h4 {
-            font-weight: 900;
-        }
-        
-        .subscribe-block .themed-grid-col article li {
-            list-style: none;
-        }
-        
-        .subscribe-block .themed-grid-col article li .fa-check {
-            color: #888788;
-        }
-        /* 3rd row */
-        
-        h4[class="most-read"] {
-            font-weight: 900;
-            font-size: 1.12em;
-        }
-        
-        .subscribe-block .side-news .themed-grid-col {
-            border-top: 1px solid rgba(0, 0, 0, .1);
-            /***eliminate floating effect***/
-            content: "";
-            clear: both;
-            display: table;
-            padding: 1em 0;
-        }
-        
-        .subscribe-block .side-news img {
-            float: left;
-            width: 26%;
-        }
-        
-        .subscribe-block .side-news h4 {
-            font-size: 18px;
-            line-height: 24px;
-            font-weight: 900;
-            float: left;
-            width: 60%;
-            padding: 0% 0% 3% 5%;
-        }
-        
-        .subscribe-block .side-news h4:hover {
-            color: #f72210;
-        }
-        /*<!--________BUTTOM LOGO____________-->*/
-        
-        .bottom-logo {
-            padding: 0 1.625em;
-        }
-        
-        .bottom-logo a {
-            width: 40%;
-            color: #f72210;
-            display: inline-block;
-        }
-        
-        .bottom-logo svg {
-            color: #f72210;
-        }
-        
-        .bottom-logo .copyright {
-            font-size: 12px;
-            line-height: 12px;
-            text-transform: uppercase;
-            color: #666;
-            margin-bottom: 12px;
-            width: 45%;
-            display: inline-block;
-        }
-        
-        .bottom-logo .block2 {
-            text-align: right;
-        }
-        
-        .bottom-logo .block2 i {
-            font-size: 26px;
-            cursor: pointer;
-        }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Roboto Condensed", sans-serif;
+    margin-bottom: 0.625em;
+    color: #000;
+}
+
+h2[class="red-class-heading"] {
+    color: #f72210;
+    padding: 0 0.625em;
+}
+
+body {
+    color: #333;
+    font-size: 0.9225em;
+    line-height: 1.125em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row-title {
+    border-bottom: 1px solid #d9d9d9;
+    padding-bottom: 0.5em;
+    text-align: center;
+    font: bold 20px/20px "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 0.9375em;
+}
+
+.row div[class*='col-'] {}
+
+.in-magazine {
+    padding: 0 1.625em;
+    margin-bottom: 2em;
+}
+
+.in-magazine div[class*='col-'] img {
+    width: 100%;
+}
+
+.in-magazine div[class*='col-'] ul,
+.in-magazine div[class*='col-'] ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.in-magazine div[class*='col-'] ul {
+    width: 100%;
+    text-align: left;
+    padding-left: 0;
+    margin-top: 0.625em;
+}
+
+.in-magazine div[class*='col-'] ul li.red-title-1 {
+    color: white;
+    padding: 1% 2%;
+    font: bold 16px/26px "Roboto Condensed", sans-serif;
+    background-color: #f72210;
+    text-transform: uppercase;
+}
+
+.in-magazine div[class*='col-'] ul li.red-title-2 {
+    padding: 1% 4%;
+    font: bold 16px/26px "Roboto Condensed", sans-serif;
+    color: #f72210;
+    text-transform: uppercase;
+}
+
+.in-magazine div[class*='col-'] h5 {
+    font-family: "Roboto Condensed", sans-serif;
+    margin-bottom: 0.625em;
+    position: relative;
+    color: #000;
+    font-size: 1.25em;
+    line-height: 1.25em;
+    font-weight: bold;
+}
+
+.in-magazine div[class*='col-'] h5:hover {
+    text-decoration: underline;
+    text-decoration-color: #f72210;
+    cursor: pointer;
+}
+
+
+/******* EDITORS PICK ************/
+
+.editors-pick {
+    padding: 0 1.625em;
+    margin-bottom: 1.1375em;
+}
+
+.editors-pick img.editor-img {
+    width: 100%;
+}
+
+.editors-pick article h4 {
+    border: 0;
+    padding: 0;
+    display: block;
+    font: bold 17px/16px "Roboto Condensed", sans-serif;
+    color: #f72210;
+    text-transform: uppercase;
+    padding: 0.9375em 25px 10px 19px;
+    margin-bottom: 13.1295em;
+    background-color: rgba(255, 255, 255, .9);
+    position: absolute;
+    bottom: 0;
+    left: 3;
+    z-index: 1;
+}
+
+.editors-pick h3,
+.slideshows h3 {
+    font-size: 24px;
+    line-height: 24px;
+    margin-bottom: .5rem;
+    font-weight: 900;
+    margin-top: 0.625em;
+}
+
+.editors-pick h3:hover,
+.main-side-news h3:hover,
+.slideshows h3:hover,
+.subscribe-block .themed-grid-col article h4:hover {
+    text-decoration: underline;
+    text-decoration-color: #f72210;
+    cursor: pointer;
+}
+
+
+/*<!--________FEATURED SLIDESHOWS____________-->*/
+
+.slideshows {
+    padding: 0 1.625em;
+    margin-bottom: 1.1375em;
+}
+
+.slideshows .slideshow-pic {
+    width: 100%;
+}
+
+
+/*<!--________RED CLASS NEWS BLOCKS____________-->*/
+
+.main-side-news {
+    padding: 0 1.625em;
+    margin-bottom: 1.1375em;
+}
+
+.main-side-news img {
+    width: 100%;
+}
+
+.main-side-news .side-news hr {
+    clear: both;
+}
+
+.main-side-news .side-news .themed-grid-col {
+    /***eliminate floating effect***/
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.main-side-news .side-news img {
+    float: left;
+    width: 34%;
+}
+
+.main-side-news .side-news h4 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 900;
+    float: left;
+    width: 60%;
+    padding: 0% 0% 3% 5%;
+}
+
+.main-side-news .side-news h4:hover {
+    color: #f72210;
+}
+
+
+/*<!--________SUBSCRIBE BLOCK____________-->*/
+
+.subscribe-block {
+    padding: 0 1.625em;
+    margin-bottom: 1.1375em;
+}
+
+h6[class="subscribe-heading"] {
+    padding: 0 1.625em;
+    font-weight: 800;
+    color: #f72210;
+}
+
+.subscribe-block .themed-grid-col {
+    /***eliminate floating effect***/
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.subscribe-block .themed-grid-col hr {
+    clear: both;
+}
+
+.subscribe-block .themed-grid-col img {
+    float: left;
+    width: 30%;
+}
+
+.subscribe-block .themed-grid-col article {
+    width: 65%;
+    float: left;
+    margin-left: 3.5%;
+}
+
+@media (max-width: 720px) {
+    .division2 {
+        float: right;
+        width: 45%;
+        border: 1px solid black;
+    }
+}
+
+.subscribe-block .themed-grid-col article h4 {
+    font-weight: 900;
+}
+
+.subscribe-block .themed-grid-col article li {
+    list-style: none;
+}
+
+.subscribe-block .themed-grid-col article li .fa-check {
+    color: #888788;
+}
+
+
+/* 3rd row */
+
+h4[class="most-read"] {
+    font-weight: 900;
+    font-size: 1.12em;
+}
+
+.subscribe-block .side-news .themed-grid-col {
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    /***eliminate floating effect***/
+    content: "";
+    clear: both;
+    display: table;
+    padding: 1em 0;
+}
+
+.subscribe-block .side-news img {
+    float: left;
+    width: 26%;
+}
+
+.subscribe-block .side-news h4 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 900;
+    float: left;
+    width: 60%;
+    padding: 0% 0% 3% 5%;
+}
+
+.subscribe-block .side-news h4:hover {
+    color: #f72210;
+}
+
+.subscribe-button {
+    display: inline-block;
+    padding: 10px 10px 10px 12px;
+    color: #fff;
+    font: bold 18px/18px "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+    background-color: #f72210;
+    text-align: center;
+    margin: 1em auto;
+}
+
+
+/*<!--________BUTTOM LOGO____________-->*/
+
+.bottom-logo {
+    padding: 0 1.625em;
+}
+
+.bottom-logo a {
+    width: 40%;
+    color: #f72210;
+    display: inline-block;
+}
+
+.bottom-logo svg {
+    color: #f72210;
+}
+
+.bottom-logo .copyright {
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    color: #666;
+    margin-bottom: 12px;
+    width: 45%;
+    display: inline-block;
+}
+
+@media (max-width: 720px) {
+    .bottom-logo .block2 {
+        text-align: left;
+    }
+}
+
+@media (min-width: 721px) {
+    .bottom-logo .block2 {
+        text-align: right;
+    }
+}
+
+.bottom-logo .block2 i {
+    font-size: 26px;
+    cursor: pointer;
+}
+
+
+/*<!--________FOOTER___________-->*/
+
+.footer li {
+    border-right: 1px solid #d9d9d9;
+    padding-right: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    margin: 6px 0;
+    cursor: pointer;
+    padding-top: 6px;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.footer li a {
+    color: #666;
+    text-decoration: none;
+}
+
+.footer li a:hover {
+    color: black;
+}
