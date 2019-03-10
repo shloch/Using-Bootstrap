@@ -9,6 +9,11 @@ h6 {
     color: #000;
 }
 
+h2[class="red-class-heading"] {
+    color: #f72210;
+    padding: 0 0.625em;
+}
+
 body {
     background-color: #f4f5f6;
     color: #333;
@@ -28,9 +33,7 @@ body {
     margin-bottom: 0.9375em;
 }
 
-.row div[class*='col-'] {
-    border: 1px solid black;
-}
+.row div[class*='col-'] {}
 
 .in-magazine {
     padding: 0 1.625em;
@@ -113,7 +116,8 @@ body {
     z-index: 1;
 }
 
-.editors-pick h3 {
+.editors-pick h3,
+.slideshows h3 {
     font-size: 24px;
     line-height: 24px;
     margin-bottom: .5rem;
@@ -121,8 +125,61 @@ body {
     margin-top: 0.625em;
 }
 
-.editors-pick h3:hover {
+.editors-pick h3:hover,
+.main-side-news h3:hover,
+.slideshows h3:hover {
     text-decoration: underline;
     text-decoration-color: #f72210;
     cursor: pointer;
+}
+
+
+/*<!--________FEATURED SLIDESHOWS____________-->*/
+
+.slideshows {
+    padding: 0 1.625em;
+    margin-bottom: 1.1375em;
+}
+
+.slideshows .slideshow-pic {
+    width: 100%;
+}
+
+
+/*<!--________RED CLASS NEWS BLOCKS____________-->*/
+
+.main-side-news {
+    padding: 0 1.625em;
+    margin-bottom: 1.1375em;
+}
+
+.main-side-news img {
+    width: 100%;
+}
+
+.main-side-news .side-news {}
+
+.main-side-news .side-news .themed-grid-col {
+    /***eliminate floating effect***/
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.main-side-news .side-news img {
+    float: left;
+    width: 34%;
+}
+
+.main-side-news .side-news h4 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 900;
+    float: left;
+    width: 60%;
+    padding: 0% 0% 3% 5%;
+}
+
+.main-side-news .side-news h4:hover {
+    color: #f72210;
 }
