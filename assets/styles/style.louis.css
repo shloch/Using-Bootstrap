@@ -285,7 +285,13 @@ h4[class="most-read"] {
     text-transform: uppercase;
     background-color: #f72210;
     text-align: center;
-    margin: 1em auto;
+}
+
+div[class="center"] {
+    margin: auto;
+    width: 45%;
+    text-align: center;
+    margin-top: 10px;
 }
 
 
