@@ -10,6 +10,7 @@
 }
 .main-nav > div {
   color: #fff;
+  padding: 0 15px;
   line-height: 1;
   font-size: 14px;
   font-weight: 900;
@@ -32,11 +33,11 @@
   justify-content: end;
 }
 .main-nav > div .sisume > a {
-  /* padding: 5px 10px; */
+  padding: 5px 10px;
   display: inline-block;
 }
 .main-nav > div .subscribe {
-  /* padding: 5px; */
+  padding: 5px;
   color: #f72210;
   text-decoration: none;
 }
