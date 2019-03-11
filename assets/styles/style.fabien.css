@@ -160,7 +160,7 @@
   border-top: 1px solid #aaa;
 }
 .more-stories article > img,
-.opinion article > img,
+.opinion article > .avatar,
 .latest-news article > img {
   float: left;
   width: 150px;
@@ -185,18 +185,25 @@
 }
 .opinion article,
 .latest-news article {
+  padding: 10px 0;
   border-bottom: 1px solid #aaa;
 }
-.opinion article > img {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-}
 .opinion article > .author {
+  margin: 0;
   color: #555;
   font-size: 0.9em;
   font-weight: 600;
   text-transform: uppercase;
+}
+.opinion article > .avatar {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: url(https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/opinion-headshot-bg.png) center no-repeat #f72210;
+}
+.opinion article > .avatar > img {
+  width: 100%;
+  height: 100%;
 }
 .latest-news article {
   padding: 10px 0;
