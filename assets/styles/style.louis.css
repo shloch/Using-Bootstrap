@@ -330,6 +330,13 @@ h4[class="most-read"] {
 .bottom-logo .block2 i {
     font-size: 26px;
     cursor: pointer;
+    transition-property: font-size;
+    transition-duration: 1s;
+    transition-delay: 0.5s;
+}
+
+.bottom-logo .block2 i:hover {
+    font-size: 29px;
 }
 
 
