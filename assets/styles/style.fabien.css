@@ -7,14 +7,12 @@
 }
 .main-nav {
   min-width: 350px;
-  box-sizing: border-box;
 }
 .main-nav > div {
   color: #fff;
   line-height: 1;
   font-size: 14px;
   font-weight: 900;
-  padding: 5px 10px;
   background: #f72210;
   text-transform: uppercase;
 }
@@ -34,12 +32,12 @@
   justify-content: end;
 }
 .main-nav > div .sisume > a {
-  padding: 5px 10px;
+  /* padding: 5px 10px; */
   display: inline-block;
 }
 .main-nav > div .subscribe {
+  /* padding: 5px; */
   color: #f72210;
-  padding: 5px;
   text-decoration: none;
 }
 .main-nav > div .subscribe {
@@ -57,7 +55,7 @@
   padding-right: 0;
 }
 .main-nav > ul {
-  padding: 10px 0;
+  padding: 10px;
   list-style: none;
   position: relative;
   border-bottom: 1px solid #aaa;
@@ -93,11 +91,8 @@
   border: none;
   padding: 3px 5px 0 5px;
 }
-.newstories {
+.newstories > div > section {
   padding: 0 15px;
-}
-.newstories > * {
-  margin: 0 10px;
 }
 .newstories article {
   overflow: hidden;
@@ -221,8 +216,28 @@
   .main-nav > div .brand svg {
     width: 100%;
   }
+  .newstories > div:nth-of-type(1) {
+    flex-grow: 4 !important;
+    border: 1px dashed #000;
+  }
+  .newstories > div:nth-of-type(2) {
+    flex-grow: 6 !important;
+    border: 1px dashed #000;
+  }
+  .newstories > div:nth-of-type(3) {
+    flex-grow: 4 !important;
+    border: 1px dashed #000;
+  }
 }
-@media screen and (min-width: 770px) {
+@media screen and (min-width: 768px) {
+  .top-story article > a {
+    max-height: 300px
+  }
+  .featured-stories article > a {
+    max-height: 200px;
+  }
+}
+@media screen and (min-width: 850px) {
   .top-story article > a {
     max-height: 400px
   }
