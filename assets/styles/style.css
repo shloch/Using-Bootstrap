@@ -270,7 +270,7 @@
     max-height: 290px
   }
   .featured-stories {
-    overflow: auto;
+    overflow: hidden;
     max-height: 1770px;
   }
   .featured-stories article > a {
@@ -361,7 +361,8 @@ h2[class="red-class-heading"] {
 
 .l-container {
     color: #333;
-    max-width: 1300px;
+    margin: auto;
+    max-width: 1320px;
     font-size: 0.9225em;
     line-height: 1.125em;
     font-family: Arial, Helvetica, sans-serif;
