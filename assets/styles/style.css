@@ -67,7 +67,6 @@
   content: "";
   display: block;
   position: absolute;
-  background-color: #f72210;
   border-left: 12px solid #fff;
   border-top: 13px solid #f72210;
 }
@@ -363,6 +362,7 @@ h2[class="red-class-heading"] {
     max-width: 1320px;
     font-size: 0.9225em;
     line-height: 1.125em;
+    border: 1px solid transparent;
     font-family: Arial, Helvetica, sans-serif;
 }
 
