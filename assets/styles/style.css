@@ -29,8 +29,6 @@
 }
 .main-nav > div .sisume {
   display: flex;
-  justify-content: end;
-  align-content: center;
 }
 .main-nav > div .sisume > a {
   padding: 5px 10px;
