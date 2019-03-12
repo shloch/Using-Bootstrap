@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
 .main-nav,
 .newstories {
+<<<<<<< HEAD
     margin: auto;
     font-size: 15px;
     font-weight: 200;
@@ -130,6 +131,222 @@
 
 .newstories>div>section {
     padding: 0 15px;
+||||||| merged common ancestors
+  margin: auto;
+  font-size: 15px;
+  font-weight: 200;
+  min-width: 200px;
+  max-width: 1300px;
+  font-family: "Roboto Condensed";
+}
+.main-nav > div {
+  color: #fff;
+  padding: 0 15px;
+  line-height: 1;
+  font-weight: 900;
+  background: #f72210;
+  text-transform: uppercase;
+}
+.main-nav > div .auth {
+  color: #fff;
+}
+.main-nav> div .date {
+  font-weight: 300;
+}
+.main-nav > div .brand svg {
+  width: 132px;
+  fill: #fff;
+}
+.main-nav > div .sisume {
+  display: flex;
+}
+.main-nav > div .sisume > a {
+  padding: 5px 10px;
+  display: inline-block;
+}
+.main-nav > div .subscribe {
+  padding: 5px;
+  color: #f72210;
+  text-decoration: none;
+}
+.main-nav > div .subscribe {
+  background: #fff;
+}
+.main-nav > div .subscribe svg {
+  height: 15px;
+  margin: -4px 0 0 5px;
+  fill: #f72210;
+}
+.main-nav > div .menu {
+  color: #fff;
+  font-size: 1.5em;
+}
+.main-nav > div a.menu {
+  padding-right: 0;
+}
+.main-nav > ul {
+  padding: 10px;
+  list-style: none;
+  position: relative;
+  border-bottom: 1px solid #ddd;
+}
+.main-nav > ul:after {
+  top: 0;
+  right: 0;
+  width: 80px;
+  content: "";
+  display: block;
+  position: absolute;
+  background-color: #f72210;
+  border-left: 12px solid #fff;
+  border-top: 13px solid #f72210;
+}
+.main-nav > ul > li {
+  line-height: 1;
+}
+.main-nav > ul a {
+  color: inherit;
+  display: block;
+  font-size: 1.2em;
+  font-weight: 700;
+  white-space: nowrap;
+  text-decoration: none;
+  border-right: 1px solid #999;
+}
+.main-nav > ul a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+.main-nav > ul > .search {
+  position: relative;
+}
+.main-nav > ul > .search > input {
+  width: 80px;
+  border: none;
+  font-size: 1.1em;
+  padding: 2px 22px 2px 10px;
+}
+.main-nav > ul > .search > .icon {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  position: absolute;
+  display: inline-block;
+  background: url(https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/icon-search-glass.svg) center/contain no-repeat #fff;
+}
+.newstories > div > section {
+  padding: 0 15px;
+=======
+  margin: auto;
+  font-size: 15px;
+  font-weight: 200;
+  min-width: 200px;
+  max-width: 1300px;
+  font-family: "Roboto Condensed";
+}
+.main-nav > div {
+  color: #fff;
+  padding: 0 15px;
+  line-height: 1;
+  font-weight: 900;
+  background: #f72210;
+  text-transform: uppercase;
+}
+.main-nav > div .auth {
+  color: #fff;
+}
+.main-nav> div .date {
+  font-weight: 300;
+}
+.main-nav > div .brand svg {
+  width: 132px;
+  fill: #fff;
+}
+.main-nav > div .sisume {
+  display: flex;
+}
+.main-nav > div .sisume > a {
+  padding: 5px 10px;
+  display: inline-block;
+}
+.main-nav > div .subscribe {
+  padding: 5px;
+  color: #f72210;
+  text-decoration: none;
+}
+.main-nav > div .subscribe {
+  background: #fff;
+}
+.main-nav > div .subscribe svg {
+  height: 15px;
+  margin: -4px 0 0 5px;
+  fill: #f72210;
+}
+.main-nav > div .menu {
+  color: #fff;
+  font-size: 1.5em;
+}
+.main-nav > div a.menu {
+  padding-right: 0;
+}
+.main-nav > ul {
+  padding: 10px;
+  list-style: none;
+  position: relative;
+  border-bottom: 1px solid #ddd;
+}
+.main-nav > ul:after {
+  top: 0;
+  right: 0;
+  width: 80px;
+  content: "";
+  display: block;
+  position: absolute;
+  border-left: 12px solid #fff;
+  border-top: 13px solid #f72210;
+}
+.main-nav > ul > li {
+  line-height: 1;
+}
+.main-nav > ul a {
+  color: inherit;
+  display: block;
+  font-size: 1.2em;
+  font-weight: 700;
+  white-space: nowrap;
+  text-decoration: none;
+  border-right: 1px solid #999;
+}
+.main-nav > ul a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+.main-nav > ul > .search {
+  position: relative;
+}
+.main-nav > ul > .search > input {
+  width: 80px;
+  border: none;
+  font-size: 1.1em;
+  padding: 2px 22px 2px 10px;
+}
+.main-nav > ul > .search > .icon {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  position: absolute;
+  display: inline-block;
+  background: url(https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/icon-search-glass.svg) center/contain no-repeat #fff;
+}
+.newstories > div > section {
+  padding: 0 15px;
+>>>>>>> 72f05cceed4a2764f4734881581f63ae19960c55
 }
 
 .newstories article {
@@ -420,6 +637,7 @@ h2[class="red-class-heading"] {
     max-width: 1320px;
     font-size: 0.9225em;
     line-height: 1.125em;
+    border: 1px solid transparent;
     font-family: Arial, Helvetica, sans-serif;
 }
 
