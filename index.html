@@ -1,0 +1,1609 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <!--GOOGLE FONTS-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed"
+      rel="stylesheet"
+    />
+    <!--FONTAWESOME-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <title>Usign Bootstrap</title>
+  </head>
+
+  <body>
+    <!-- TOP TO MIDDLE -->
+    <nav class="main-nav">
+      <div class="row align-items-center no-gutters">
+        <span class="date col-lg-6 d-none d-lg-inline-flex">
+          Mon, Mar 11, 2019
+        </span>
+        <a
+          class="brand col"
+          href="https://www.newsweek.com/russia-us-refugees-hostage-syria-trump-1354059"
+        >
+          <svg
+            viewBox="0 0 395.6 60"
+            style="enable-background:new 0 0 395.6 60;"
+            xml:space="preserve"
+          >
+            <g>
+              <path
+                d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"
+              ></path>
+            </g>
+          </svg>
+        </a>
+        <div
+          class="sisume col-auto col-lg-6 align-items-center justify-content-end"
+        >
+          <a
+            class="auth"
+            target="_blank"
+            href="https://subscription.newsweek.com/auth"
+          >
+            Sign In
+          </a>
+          <a
+            class="subscribe"
+            target="_blank"
+            href="https://subscription.newsweek.com/subscribe?utm_source=NWwebsite&amp;utm_medium=top-nav&amp;utm_campaign=subscribe-button#12weeks"
+          >
+            Subscribe
+            <svg
+              class="d-none d-lg-inline-flex"
+              viewBox="0 0 8 14"
+              style="enable-background:new 0 0 8 14;"
+              xml:space="preserve"
+            >
+              <g>
+                <defs><rect width="8" height="14"></rect></defs>
+                <clipPath>
+                  <use style="overflow:visible;"></use>
+                </clipPath>
+                <g>
+                  <polygon
+                    points="8,7 1.1,0 0,1.1 5.9,7 0,12.9 1.1,14 8,7 8,7	"
+                  ></polygon>
+                </g>
+              </g>
+            </svg>
+          </a>
+          <a class="menu d-lg-none">&#9776;</a>
+        </div>
+      </div>
+      <ul class="d-none d-lg-flex">
+        <li class="">
+          <a href="https://www.newsweek.com/us">
+            U.S.
+          </a>
+        </li>
+        <li class="">
+          <a href="https://www.newsweek.com/world">
+            World
+          </a>
+        </li>
+        <li class="">
+          <a href="https://www.newsweek.com/business">
+            Business
+          </a>
+        </li>
+        <li class="">
+          <a href="https://www.newsweek.com/tech-science">
+            Tech & Science
+          </a>
+        </li>
+        <li class="">
+          <a href="https://www.newsweek.com/culture">
+            Culture
+          </a>
+        </li>
+        <li class="">
+          <a href="https://www.newsweek.com/sports">
+            Sports
+          </a>
+        </li>
+        <li class="">
+          <a href="https://www.newsweek.com/health">
+            Health
+          </a>
+        </li>
+        <li class="">
+          <a href="https://www.newsweek.com/opinion">
+            Opinion
+          </a>
+        </li>
+        <li class="">
+          <a href="https://www.newsweek.com/ndelible">
+            Ndelible
+          </a>
+        </li>
+        <li class="search ">
+          <input
+            placeholder="Search"
+            type="text"
+            name="search_block_form"
+            size="15"
+            maxlength="128"
+          />
+          <i class="icon"></i>
+        </li>
+      </ul>
+    </nav>
+    <div class="newstories row justify-content-center no-gutters">
+      <div class="col-12 col-md-5 col-lg order-2 order-md-1">
+        <section class="featured-stories">
+          <h2 class="title">Featured Stories</h2>
+          <ul>
+            <li>
+              <article>
+                <a
+                  href="https://www.newsweek.com/boeing-737-max-8-ethiopia-indonesia-crashes-1358101"
+                >
+                  <img
+                    src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/11/ethiopian-airlines-crash.jpg"
+                    alt="trump border wall budget request"
+                  />
+                  <span class="sticker">
+                    U.S
+                  </span>
+                </a>
+                <h3 class="title">
+                  <a
+                    href="https://www.newsweek.com/boeing-737-max-8-ethiopia-indonesia-crashes-1358101"
+                  >
+                    Which Airlines Fly the Boeing 737 Max 8?
+                  </a>
+                </h3>
+                <p class="summary">
+                  The model has been involved in two fatal incidents since it
+                  was introduced commercially in 2017.
+                </p>
+                <p>
+                  <a
+                    href="https://www.newsweek.com/who-jerome-powell-trump-rated-fed-1265343"
+                  >
+                    What We Know About Boeing 737 MAX 8
+                  </a>
+                </p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <a
+                  href="https://www.newsweek.com/david-robert-grimes-fighting-anti-vax-online-harassment-campaigns-1356709"
+                >
+                  <img
+                    src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/03/08/influenza-vaccine.jpg"
+                    alt="trump border wall budget request"
+                  />
+                  <span class="sticker">
+                    TECH & SCIENCE
+                  </span>
+                </a>
+                <h3 class="title">
+                  <a
+                    href="https://www.newsweek.com/david-robert-grimes-fighting-anti-vax-online-harassment-campaigns-1356709"
+                  >
+                    How One Scientist Is Fighting Anti-Vaxxer Harassment
+                  </a>
+                </h3>
+                <p class="summary">
+                  Newsweek spokes to science writer and pro-vaccine advocate
+                  David Robert Grimes, who has received the John Maddox Prize
+                  for communicating science in the face of hostility.
+                </p>
+                <p>
+                  <a
+                    href="https://www.newsweek.com/who-jerome-powell-trump-rated-fed-1265343"
+                  >
+                    Myths Fueling the Growing Anti-Vaxxer Threat Overseas
+                  </a>
+                </p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <a
+                  href="https://www.newsweek.com/us-detention-centers-migrants-mumps-outbreaks-quarantine-1358058"
+                >
+                  <img
+                    src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/03/11/gettyimages-450371191.jpg"
+                    alt="trump border wall budget request"
+                  />
+                  <span class="sticker">
+                    U.S
+                  </span>
+                </a>
+                <h3 class="title">
+                  <a
+                    href="https://www.newsweek.com/us-detention-centers-migrants-mumps-outbreaks-quarantine-1358058"
+                  >
+                    2,000 Migrants Quarantined Over Mumps, Other Outbreaks
+                  </a>
+                </h3>
+                <p class="summary">
+                  As of late last week, a total of 2,287 detainees had been
+                  quarantined in facilities across the U.S., according to the
+                  U.S. Immigration and Customs Enforcement agency.
+                </p>
+                <p>
+                  <a
+                    href="https://www.newsweek.com/who-jerome-powell-trump-rated-fed-1265343"
+                  >
+                    Nearly 200 at Immigration Centers Affected by Mumps
+                  </a>
+                </p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <a
+                  href="https://www.newsweek.com/kamala-harris-donald-trump-border-wall-us-mexico-2020-budget-1358091"
+                >
+                  <img
+                    src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/03/11/gettyimages-866270020.jpg"
+                    alt="trump border wall budget request"
+                  />
+                  <span class="sticker">
+                    U.S
+                  </span>
+                </a>
+                <h3 class="title">
+                  <a
+                    href="https://www.newsweek.com/kamala-harris-donald-trump-border-wall-us-mexico-2020-budget-1358091"
+                  >
+                    Harris Slams Trump's $8.6 Billion Wall Budget Demand
+                  </a>
+                </h3>
+                <p class="summary">
+                  "Billions of dollars for a border wall is a waste of money,"
+                  Senator Kamala Harris, a California Democrat and presidential
+                  candidate, said.
+                </p>
+                <p>
+                  <a
+                    href="https://www.newsweek.com/who-jerome-powell-trump-rated-fed-1265343"
+                  >
+                    Pelosi, Schumer: Trump Won't Get $8.6B for Border Wall
+                  </a>
+                </p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <a
+                  href="https://www.newsweek.com/federal-reserve-chair-jerome-powell-says-donald-trump-cant-fire-him-i-have-1358036"
+                >
+                  <img
+                    src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md/public/2019/03/11/jerome-powell-federal-reserve.jpg"
+                    alt="trump border wall budget request"
+                  />
+                  <span class="sticker">
+                    U.S
+                  </span>
+                </a>
+                <h3 class="title">
+                  <a
+                    href="https://www.newsweek.com/federal-reserve-chair-jerome-powell-says-donald-trump-cant-fire-him-i-have-1358036"
+                  >
+                    Fed Chairman Jerome Powell Says Trump Can't Fire Him
+                  </a>
+                </h3>
+                <p class="summary">
+                  The Fed has often been the target of criticism from the Trump
+                  administration, and toward the end of last year, the president
+                  had reportedly discussed firing Powell.
+                </p>
+                <p>
+                  <a
+                    href="https://www.newsweek.com/who-jerome-powell-trump-rated-fed-1265343"
+                  >
+                    Who Is Jerome Powell? Trump at War With Fed Chair
+                  </a>
+                </p>
+              </article>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="col-12 col-md-7 col-lg-5 order-1 order-md-2">
+        <section class="top-story">
+          <h2 class="title">Top story</h2>
+          <article>
+            <a
+              href="https://www.newsweek.com/federal-reserve-chair-jerome-powell-says-donald-trump-cant-fire-him-i-have-1358036"
+            >
+              <img
+                src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md/public/2019/03/11/jerome-powell-federal-reserve.jpg"
+                alt="trump border wall budget request"
+              />
+              <span class="sticker">
+                U.S
+              </span>
+            </a>
+            <h3 class="title">
+              <a
+                href="https://www.newsweek.com/federal-reserve-chair-jerome-powell-says-donald-trump-cant-fire-him-i-have-1358036"
+              >
+                Fed Chairman Jerome Powell Says Trump Can't Fire Him
+              </a>
+            </h3>
+            <p class="summary">
+              The Fed has often been the target of criticism from the Trump
+              administration, and toward the end of last year, the president had
+              reportedly discussed firing Powell.
+            </p>
+            <p>
+              <a
+                href="https://www.newsweek.com/who-jerome-powell-trump-rated-fed-1265343"
+              >
+                Who Is Jerome Powell? Trump at War With Fed Chair
+              </a>
+            </p>
+          </article>
+        </section>
+        <section class="more-stories">
+          <h2 class="title">MORE STORIES</h2>
+          <ul>
+            <li>
+              <article>
+                <img
+                  src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/11/gettyimages-893561138.jpg"
+                  alt="GettyImages-1128586528"
+                />
+                <h3>
+                  <a
+                    href="https://www.newsweek.com/british-government-accused-trying-water-down-workers-rights-quietly-changing-1357955"
+                  >
+                    Brexit Deal Strips Away Workers' Rights, Union Warns
+                  </a>
+                </h3>
+                <p class="summary">
+                  "This sleight of hand—one that ministers hoped no one would
+                  notice—shows exactly why we can’t trust this government when
+                  it comes to our rights at work," argued the general secretary
+                  of British trade union GMB.
+                </p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <img
+                  src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/11/gettyimages-935012856.jpg"
+                  alt="GettyImages-1128586528"
+                />
+                <h3>
+                  <a
+                    href="https://www.newsweek.com/us-global-weapons-sales-russia-1358131"
+                  >
+                    U.S. Weapons Sales 75 Percent Higher Than Russia
+                  </a>
+                </h3>
+                <p class="summary">
+                  “The USA has further solidified its position as the world’s
+                  leading arms supplier,” said the director of the SIPRI Arms
+                  and Military Expenditure Program.
+                </p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <img
+                  src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/11/gettyimages-1128643254-594x594.jpg"
+                  alt="GettyImages-1128586528"
+                />
+                <h3>
+                  <a
+                    href="https://www.newsweek.com/us-global-weapons-sales-russia-1358131"
+                  >
+                    Benjamin Netanyahu Declares Israel Nation-State of Jews
+                  </a>
+                </h3>
+                <p class="summary">
+                  "Israel is not a state of all its citizens," Netanyahu wrote.
+                </p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <img
+                  src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/10/pete-buttigieg.jpg"
+                  alt="GettyImages-1128586528"
+                />
+                <h3>
+                  <a
+                    href="https://www.newsweek.com/pete-buttigieg-calls-mike-pence-cheerleader-porn-star-presidency-says-trump-1357930"
+                  >
+                    Buttigieg Questions Pence Working With Trump
+                  </a>
+                </h3>
+                <p class="summary">
+                  Pete Buttigieg, the South Bend, Indiana, mayor who's running
+                  for president, asked how Vice President Mike Pence could allow
+                  himself to be "the cheerleader of the porn star presidency. Is
+                  it that he stopped believing in Scripture when he started
+                  believing in Donald Trump?"
+                </p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <img
+                  src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/08/eye-test-stock-getty.jpg"
+                  alt="GettyImages-1128586528"
+                />
+                <h3>
+                  <a
+                    href="https://www.newsweek.com/alzheimers-disease-diagnosed-eye-test-1356390"
+                  >
+                    Eye Test Could One Day Spot Alzheimer's Disease
+                  </a>
+                </h3>
+                <p class="summary">
+                  “Unfortunately, we expect to see more of this," the director
+                  of the Center for the Study of Hate and Extremism at
+                  California State University, San Bernardino, told Newsweek.
+                </p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <img
+                  src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/08/gettyimages-633491698-594x594.jpg"
+                  alt="GettyImages-1128586528"
+                />
+                <h3>
+                  <a
+                    href="https://www.newsweek.com/criminal-acts-trump-maga-hats-1357179"
+                  >
+                    Violence Reportedly Rising Against People in MAGA Hats
+                  </a>
+                </h3>
+                <p class="summary">
+                  “Unfortunately, we expect to see more of this," the director
+                  of the Center for the Study of Hate and Extremism at
+                  California State University, San Bernardino, told Newsweek.
+                </p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <img
+                  src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/10/gettyimages-929297978.jpg"
+                  alt="GettyImages-1128586528"
+                />
+                <h3>
+                  <a
+                    href="https://www.newsweek.com/republican-senator-manafort-grifter-sleazed-prison-sentence-13577279"
+                  >
+                    GOP Senator Blasts Manafort as 'Grifter' and 'Sleazoid'
+                  </a>
+                </h3>
+                <p class="summary">
+                  "He’s always played at the margins," said GOP Senator John
+                  Kennedy.
+                </p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <img
+                  src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/11/gettyimages-1134478846.jpg"
+                  alt="GettyImages-1128586528"
+                />
+                <h3>
+                  <a
+                    href="https://www.newsweek.com/ice-investigating-agents-sharing-social-media-posts-suggesting-ilhan-omar-1357872"
+                  >
+                    ICE Investigates Agents Over Anti-Immigration Posts
+                  </a>
+                </h3>
+                <p class="summary">
+                  “And this is what represents America?” Homeland Security
+                  Investigations senior agent Leslie Derewonko wrote.
+                </p>
+              </article>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <div class="col-12 col-lg order-4">
+        <section class="opinion">
+          <h2 class="title">Opinion</h2>
+          <ul>
+            <li>
+              <article>
+                <div class="avatar"></div>
+                <h3>
+                  <a href="https://www.newsweek.com/">
+                    It's Time for the U.S. to Lead on Data Privacy Law
+                  </a>
+                </h3>
+                <p class="author">
+                  By Justin Antonipillai and John Ackerly
+                </p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <div class="avatar">
+                  <img
+                    src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/square_thumbnail/public/23544/profile_image/nw-columnist-newt-gingrich.png"
+                    alt="GettyImages-1128586528"
+                  />
+                </div>
+                <h3>
+                  <a
+                    href="https://www.newsweek.com/aoc-pelosi-green-new-deal-democrats-divide-1357379"
+                  >
+                    No Grandparents Invited to Young Democrats' Party
+                  </a>
+                </h3>
+                <p class="author">
+                  By
+                  <a href="https://www.newsweek.com/authors/newt-gingrich">
+                    Newt Gingrich
+                  </a>
+                </p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <div class="avatar">
+                  <img
+                    src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/square_thumbnail/public/23544/profile_image/nw-columnist-ella-tennant.png"
+                    alt="GettyImages-1128586528"
+                  />
+                </div>
+                <h3>
+                  <a
+                    href="https://www.newsweek.com/international-womens-day-sexist-language-opinion-1355225"
+                  >
+                    How Not to Use Sexist Language
+                  </a>
+                </h3>
+                <p class="author">
+                  BY ELLA TENNANT
+                </p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <div class="avatar"></div>
+                <h3>
+                  <a
+                    href="https://www.newsweek.com/refugees-wall-mediterranean-europe-libya-coast-guard-torture-1355376"
+                  >
+                    Europe is Colluding in Rape and Torture of Refugees
+                  </a>
+                </h3>
+                <p class="author">
+                  BY MATTEO DE BELLIS
+                </p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <div class="avatar">
+                  <img
+                    src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/square_thumbnail/public/23544/profile_image/nw-columnists-rebecca-vilkomerson.png"
+                    alt="GettyImages-1128586528"
+                  />
+                </div>
+                <h3>
+                  <a
+                    href="/https://www.newsweek.com/ilhan-omar-gop-antisemitism-israel-jewish-1352797"
+                  >
+                    The Hypocrisy of GOP Islamophobes Over Ilhan Omar
+                  </a>
+                </h3>
+                <p class="author">
+                  BY REBECCA VILKOMERSON
+                </p>
+              </article>
+            </li>
+            <li>
+              <article>
+                <div class="avatar"></div>
+                <h3>
+                  <a
+                    href="https://www.newsweek.com/international-womens-day-sexist-language-opinion-1355225"
+                  >
+                    How Not to Use Sexist Language
+                  </a>
+                </h3>
+                <p class="author">
+                  BY ELLA TENNANT
+                </p>
+              </article>
+            </li>
+          </ul>
+        </section>
+        <section class="latest-news">
+          <h2 class="title">Latest news</h2>
+          <ul>
+            <li>
+              <article>
+                <img
+                  src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/11/gettyimages-1086316242.jpg"
+                  alt="GettyImages-1128586528"
+                />
+                <h3>
+                  <a
+                    href="https://www.newsweek.com/acklin-alabama-lawyer-fee-conflict-scotus-1358937"
+                  >
+                    A Lawyer Put His Getting Paid Ahead of Client's Life
+                  </a>
+                </h3>
+              </article>
+            </li>
+            <li>
+              <article>
+                <img
+                  src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/11/julianne-moore-gloria-bell00822.jpg"
+                  alt="GettyImages-1128586528"
+                />
+                <h3>
+                  <a
+                    href="https://www.newsweek.com/julianne-moore-talks-gloria-bell-1358704"
+                  >
+                    Julianne Moore's 'Inspiring' Character in 'Gloria Bell'
+                  </a>
+                </h3>
+              </article>
+            </li>
+            <li>
+              <article>
+                <img
+                  src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/11/botched-sneak-peek-christina-milians-sister-danielle-may-have-much-worse-case.png"
+                  alt="GettyImages-1128586528"
+                />
+                <h3>
+                  <a
+                    href="https://www.newsweek.com/botched-sneak-peek-christina-milians-sister-danielle-may-have-much-worse-case-1358858"
+                  >
+                    'Botched': Christina Milian's Sister Visits the Doctors
+                  </a>
+                </h3>
+              </article>
+            </li>
+            <li>
+              <article>
+                <img
+                  src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/11/greece-santorini.jpg"
+                  alt="GettyImages-1128586528"
+                />
+                <h3>
+                  <a
+                    href="https://www.newsweek.com/where-travel-april-2019-1358905"
+                  >
+                    The Six Countries You Need to Visit in April
+                  </a>
+                </h3>
+              </article>
+            </li>
+            <li>
+              <article>
+                <img
+                  src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/11/ahmed-altaii.jpeg"
+                  alt="GettyImages-1128586528"
+                />
+                <h3>
+                  <a
+                    href="https://www.newsweek.com/michigan-community-raises-funds-ahmed-altaii-funeral-who-died-mexico-1358624"
+                  >
+                    Almost $10K Raised For 19-year-old Who Died in Mexico
+                  </a>
+                </h3>
+              </article>
+            </li>
+            <li>
+              <article>
+                <img
+                  src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/05/game-thrones-season-8-cast-jon-snow-daenerys.jpeg"
+                  alt="GettyImages-1128586528"
+                />
+                <h3>
+                  <a
+                    href="https://www.newsweek.com/game-thrones-season-8-runtimes-episode-lengths-1358756"
+                  >
+                    AOC Mocks Republicans for Trusting 'GOP-Fox Propaganda'
+                  </a>
+                </h3>
+              </article>
+            </li>
+            <li>
+              <article>
+                <img
+                  src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/11/aoc-sxsw.jpg"
+                  alt="GettyImages-1128586528"
+                />
+                <h3>
+                  <a
+                    href="https://www.newsweek.com/alexandria-ocasio-cortez-fox-news-republicans-1358648"
+                  >
+                    AOC Mocks Republicans for Trusting 'GOP-Fox Propaganda'
+                  </a>
+                </h3>
+              </article>
+            </li>
+            <li>
+              <article>
+                <img
+                  src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/11/gettyimages-905932838.jpg"
+                  alt="GettyImages-1128586528"
+                />
+                <h3>
+                  <a
+                    href="https://www.newsweek.com/st-patricks-day-dublin-how-1358647"
+                  >
+                    How to do St. Patrick's Day in Dublin
+                  </a>
+                </h3>
+              </article>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </div>
+
+    <!-- MIDDLE TO BOTTOM -->
+    <!--row-1-->
+    <div class="l-container">
+      <h2 class="row-title">
+        <img alt="#" src="assets/images/news.png" /> IN THE MAGAZINE
+      </h2>
+      <div class="row in-magazine">
+        <div class="col-md-3 themed-grid-col">
+          <img
+            alt="#"
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/03/04/fewhiteidentity01619475022.jpg"
+          />
+          <ul>
+            <li class="red-title-1">COVER</li>
+            <li class="red-title-2">U.S.</li>
+          </ul>
+          <h5>Make America White Again ?</h5>
+        </div>
+        <div class="col-md-3 themed-grid-col">
+          <img
+            alt="#"
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/03/04/fewhiteidentity01619475022.jpg"
+          />
+          <ul>
+            <li class="red-title-1">FEATURES</li>
+            <li class="red-title-2">U.S.</li>
+          </ul>
+          <h5>Make America White Again ?</h5>
+        </div>
+        <div class="col-md-3 themed-grid-col">
+          <img
+            alt="#"
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/02/21/feblockchain-impact-awardssimply-vital-health1062184620.jpg"
+          />
+          <ul>
+            <li class="red-title-1">FEATURES</li>
+            <li class="red-title-2">TECH & SCIENCE</li>
+          </ul>
+          <h5>Introducing Blockchain Impact Winner SimplyVital Health</h5>
+        </div>
+        <div class="col-md-3 themed-grid-col">
+          <img
+            alt="#"
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/02/21/feblockchain-impact-awardsprescrypto645424997banner.jpg"
+          />
+          <ul>
+            <li class="red-title-1">FEATURES</li>
+            <li class="red-title-2">TECH & SCIENCE</li>
+          </ul>
+          <h5>Introducing Blockchain Impact Award Winner Prescrypto</h5>
+        </div>
+      </div>
+
+      <!--row-2-->
+      <div class="row in-magazine">
+        <div class="col-md-3 themed-grid-col">
+          <img
+            alt="#"
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/02/28/febroadcity01.jpg"
+          />
+          <ul>
+            <li class="red-title-1">FEATURES</li>
+            <li class="red-title-2">CULTURE</li>
+          </ul>
+          <h5>An Oral History of 'Broad City'</h5>
+        </div>
+        <div class="col-md-3 themed-grid-col">
+          <img
+            alt="#"
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/03/01/culbeyonce01160625517banner.jpg"
+          />
+          <ul>
+            <li class="red-title-1">DOWNTIME</li>
+            <li class="red-title-2">CULTURE</li>
+          </ul>
+          <h5>Lena Waithe on the Power of Bey</h5>
+        </div>
+        <div class="col-md-3 themed-grid-col">
+          <img
+            alt="#"
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/md_thumb/public/2019/03/04/perspytalk01.jpg"
+          />
+          <ul>
+            <li class="red-title-1">DOWNTIME</li>
+            <li class="red-title-2">SPYTALK</li>
+          </ul>
+          <h5>CIA Turncoats Should Be Lured Back With No Jail Time</h5>
+        </div>
+        <div class="col-md-3 themed-grid-col">
+          <img
+            alt="#"
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/mobile/public/2019/03/07/infocus041127662216.jpg"
+          />
+          <ul>
+            <li class="red-title-1">BIG SHOTS</li>
+            <li class="red-title-2"></li>
+          </ul>
+          <h5>NOTHING TO SEE HERE</h5>
+        </div>
+      </div>
+
+      <!--________EDITOR's PICK____________-->
+      <h2 class="row-title">
+        <img alt="#" src="assets/images/news.png" /> EDITOR'S PICK
+      </h2>
+
+      <!--row 1-->
+      <div class="row editors-pick">
+        <div class="col-lg-3 col-md-6 themed-grid-col">
+          <article>
+            <img
+              class="editor-img"
+              alt="#"
+              src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/08/gettyimages-624198422.jpg"
+            />
+            <h4>U.S</h4>
+          </article>
+          <h3>Inspiring Quotes to Celebrate International Women's Day</h3>
+          <p>"I was built this way for a reason, so I'm going to use it."</p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 themed-grid-col">
+          <article>
+            <img
+              class="editor-img"
+              alt="#"
+              src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/04/international-womens-day-quotes.jpg"
+            />
+            <h4>U.S</h4>
+          </article>
+          <h3>Huckabee Says Manafort's Sentence Not About Russia</h3>
+          <p>
+            "The fake collusion narrative is simply too important to the media,"
+            former Arkansas Governor Mike Huckabee said.
+          </p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 themed-grid-col">
+          <article>
+            <img
+              class="editor-img"
+              alt="#"
+              src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/07/gettyimages-1067771784-594x594.jpg"
+            />
+            <h4>U.S</h4>
+          </article>
+          <h3>Europe Slams Saudi Arabia Over Human Rights Abuses</h3>
+          <p>
+            The statement called on the kingdom to release many of the activists
+            currently jailed in the country and for cooperation with a United
+            Nations investigation into the murder of Saudi journalist Jamal
+            Khashoggi.
+          </p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 themed-grid-col">
+          <article>
+            <img
+              class="editor-img"
+              alt="#"
+              src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/07/bernie-sanders.jpg"
+            />
+            <h4>U.S</h4>
+          </article>
+          <h3>Bernie Sanders Defends Ilhan Omar's Israel Criticism</h3>
+          <p>
+            The Vermont senator and presidential candidate fears the outcry
+            surrounding the congresswoman will stifle debate over Israel and the
+            Palestinian territories.
+          </p>
+        </div>
+      </div>
+
+      <!--row 2-->
+      <div class="row editors-pick">
+        <div class="col-lg-3 col-md-6 themed-grid-col">
+          <article>
+            <img
+              class="editor-img"
+              alt="#"
+              src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/08/gettyimages-975365070.jpg"
+            />
+            <h4>U.S</h4>
+          </article>
+          <h3>Manafort Sentence Shows 'Disparity' in Justice System</h3>
+          <p>
+            "You have a judge like T.S. Ellis, who looks at a defendant like
+            Paul Manafort, sees someone rich, powerful, nearly 70 years old, and
+            looks at a version himself," a former Justice Department official
+            told MSNBC.
+          </p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 themed-grid-col">
+          <article>
+            <img
+              class="editor-img"
+              alt="#"
+              src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/07/abigail-disney-tax-wealthy.png"
+            />
+            <h4>U.S</h4>
+          </article>
+          <h3>Disney Heiress: Tax The Wealthy, CEOs Paid Too Much</h3>
+          <p>
+            Abigail Disney, heiress to The Walt Disney Company, railed against
+            CEOs collecting too much pay and is demanding Americans start taxing
+            the wealthy.
+          </p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 themed-grid-col">
+          <article>
+            <img
+              class="editor-img"
+              alt="#"
+              src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/07/gettyimages-1128955236.jpg"
+            />
+            <h4>U.S</h4>
+          </article>
+          <h3>Criticizing Trump Gets Journalist’s Prize Canceled</h3>
+          <p>
+            A Finnish journalist who has braved harassment and death threats for
+            her work covering Russian propaganda was told her nomination was in
+            error.
+          </p>
+        </div>
+
+        <div class="col-lg-3 col-md-6 themed-grid-col">
+          <article>
+            <img
+              class="editor-img"
+              alt="#"
+              src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/07/gettyimages-875756336.jpg"
+            />
+            <h4>U.S</h4>
+          </article>
+          <h3>Lawmakers Introduce Bill to Ban 'Slaughter' of Kittens</h3>
+          <p>
+            "The USDA’s decision to slaughter kittens after they are used in
+            research is an archaic practice and horrific treatment."
+          </p>
+        </div>
+      </div>
+
+      <!--________FEATURED SLIDESHOWS____________-->
+      <h2 class="row-title">
+        <img alt="#" src="assets/images/news.png" /> FEATURED SLIDESHOWS
+      </h2>
+
+      <!--row-1-->
+      <div class="row slideshows">
+        <div class="col-md-4 themed-grid-col">
+          <img
+            alt="#"
+            class="slideshow-pic"
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/08/marvel.jpg"
+          />
+          <h3>Marvel Cinematic Universe Movies Ranked from Worst to Best</h3>
+        </div>
+        <div class="col-md-4 themed-grid-col">
+          <img
+            alt="#"
+            class="slideshow-pic"
+            src="assets/images/floridaproject.jpg"
+          />
+          <h3>
+            Movies to Stream on International Women’s Day: 15 Options That Pass
+            the Bechdel Test
+          </h3>
+        </div>
+        <div class="col-md-4 themed-grid-col">
+          <img alt="#" class="slideshow-pic" src="assets/images/armory.jpg" />
+          <h3>
+            NY’s Armory Show Highlights Soulages, Ai Weiwei and Warhol in Packed
+            Piers
+          </h3>
+        </div>
+      </div>
+
+      <!--row-2-->
+      <div class="row slideshows">
+        <div class="col-md-4 themed-grid-col">
+          <img alt="#" class="slideshow-pic" src="assets/images/image-00.jpg" />
+          <h3>
+            Geneva Auto Show 2019: Ridiculously Fast and Incredibly Expensive
+            Supercars and Hypercars, in Pictures
+          </h3>
+        </div>
+        <div class="col-md-4 themed-grid-col">
+          <img
+            alt="#"
+            class="slideshow-pic"
+            src="assets/images/image-00_1.jpg"
+          />
+          <h3>
+            20 Years Since Stanley Kubrick Died: All the Visionary Director’s
+            Movies Ranked
+          </h3>
+        </div>
+        <div class="col-md-4 themed-grid-col">
+          <img
+            alt="#"
+            class="slideshow-pic"
+            src="assets/images/image-00_2.jpg"
+          />
+          <h3>
+            Bryan Cranston’s Birthday: His 15 Best Movies and TV Shows Ranked
+          </h3>
+        </div>
+      </div>
+
+      <hr />
+
+      <h2 class="red-class-heading">U.S.</h2>
+
+      <div class="row main-side-news">
+        <div class="col-md-4 themed-grid-col">
+          <img
+            alt="#"
+            class="main-pic"
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/08/gettyimages-504689876-594x594-3.jpg"
+          />
+          <h3>Powerball Results, Numbers for 3/9/19</h3>
+        </div>
+        <div class="col-md-4 themed-grid-col">
+          <img
+            alt="#"
+            class="main-pic"
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/08/trump-signs-bibles.jpg"
+          />
+          <h3>Fox News Host: I Want Trump To Sign My Bible</h3>
+        </div>
+        <div class="col-md-4 themed-grid-col">
+          <!--side blocks-->
+          <div class="row side-news">
+            <div class="col-md-12 themed-grid-col">
+              <img
+                alt="#"
+                src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/09/r-kelly.jpg"
+              />
+              <h4>SNL's Pete Davidson Compares Catholics to R. Kelly Fans</h4>
+            </div>
+            <hr />
+
+            <div class="col-md-12 themed-grid-col">
+              <img
+                alt="#"
+                src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2018/12/17/john-mccain-funeral.jpg"
+              />
+              <h4>Malkin: No Apology Over John McCain Ghost Comment</h4>
+            </div>
+            <hr />
+
+            <div class="col-md-12 themed-grid-col">
+              <img
+                alt="#"
+                src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/08/image-00_1.jpg"
+              />
+              <h4>Sharon Stone’s Birthday: Her 20 Best Movies</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <h2 class="red-class-heading">World</h2>
+
+      <div class="row main-side-news">
+        <div class="col-md-4 themed-grid-col">
+          <img
+            alt="#"
+            class="main-pic"
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/09/visa-europe.jpg"
+          />
+          <h3>Americans Will Soon Need A Visa to Travel to Europe</h3>
+        </div>
+        <div class="col-md-4 themed-grid-col">
+          <img
+            alt="#"
+            class="main-pic"
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/09/bryde-whale.jpg"
+          />
+          <h3>Diver Describes Being Almost Swallowed by Whale</h3>
+        </div>
+        <div class="col-md-4 themed-grid-col">
+          <!--side blocks-->
+          <div class="row side-news">
+            <div class="col-md-12 themed-grid-col">
+              <img
+                alt="#"
+                src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/08/russiaturkeyblackseanavydrills_0.JPG"
+              />
+              <h4>U.S. Ally Turkey Builds Military Ties With Russia</h4>
+            </div>
+            <hr />
+
+            <div class="col-md-12 themed-grid-col">
+              <img
+                alt="#"
+                src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/08/gettyimages-1125849490-594x594.jpg"
+              />
+              <h4>Ukraine Has Right to Develop Missiles After INF Ends</h4>
+            </div>
+            <hr />
+
+            <div class="col-md-12 themed-grid-col">
+              <img
+                alt="#"
+                src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/08/gettyimages-1129114455_0.jpg"
+              />
+              <h4>Rubio Mocks Venezuela Blaming Him for Power Outage</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <h2 class="red-class-heading">Business</h2>
+
+      <div class="row main-side-news">
+        <div class="col-md-4 themed-grid-col">
+          <img
+            alt="#"
+            class="main-pic"
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/08/georgeconwaydonaldtrumpkellyanneconwaybananarepublic.jpg"
+          />
+          <h3>George Conway: Trump Wants U.S. as a ‘Banana Republic’</h3>
+        </div>
+        <div class="col-md-4 themed-grid-col">
+          <img
+            alt="#"
+            class="main-pic"
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/08/nancypelosiivankatrumpjaredkushnerdemocrats.jpg"
+          />
+          <h3>Nancy Pelosi: It's Fair Game to Go After Ivanka, Jared</h3>
+        </div>
+        <div class="col-md-4 themed-grid-col">
+          <!--side blocks-->
+          <div class="row side-news">
+            <div class="col-md-12 themed-grid-col">
+              <img
+                alt="#"
+                src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/07/rudygiulianitruthmichaelcohen.jpg"
+              />
+              <h4>Rudy Giuliani Asks if Democrats 'Care About the Truth'</h4>
+            </div>
+            <hr />
+
+            <div class="col-md-12 themed-grid-col">
+              <img
+                alt="#"
+                src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/07/abigail-disney-tax-wealthy.png"
+              />
+              <h4>Disney Heiress: Tax The Wealthy, CEOs Paid Too Much</h4>
+            </div>
+            <hr />
+
+            <div class="col-md-12 themed-grid-col">
+              <img
+                alt="#"
+                src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/07/anncoulterivankatrumpdemocrats.jpg"
+              />
+              <h4>Ann Coulter Mocks "Very High Powered" Ivanka Trump</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <h2 class="red-class-heading">Tech & Science</h2>
+
+      <div class="row main-side-news">
+        <div class="col-md-4 themed-grid-col">
+          <img
+            alt="#"
+            class="main-pic"
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/07/battlefield-5-firestorm-leak-explained.jpg"
+          />
+          <h3>‘Battlefield 5’ Firestorm Battle Royale Explained</h3>
+        </div>
+        <div class="col-md-4 themed-grid-col">
+          <img
+            alt="#"
+            class="main-pic"
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/07/nintendo-labo-vr-kit-release-date-price.jpg"
+          />
+          <h3>Nintendo Labo VR Kit Announced</h3>
+        </div>
+        <div class="col-md-4 themed-grid-col">
+          <!--side blocks-->
+          <div class="row side-news">
+            <div class="col-md-12 themed-grid-col">
+              <img
+                alt="#"
+                src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/07/ps4-remote-play-6.50-update-how-stream-ios-iphone-ipad-download-play-games-wifi.png"
+              />
+              <h4>How To Use PS4 Remote Play on iOS</h4>
+            </div>
+            <hr />
+
+            <div class="col-md-12 themed-grid-col">
+              <img
+                alt="#"
+                src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/07/boss-worker-employee-bully-stock-getty.jpg"
+              />
+              <h4>Workplace Bullying Could Push Employees to Sabotage</h4>
+            </div>
+            <hr />
+
+            <div class="col-md-12 themed-grid-col">
+              <img
+                alt="#"
+                src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/06/gun-firearm-stock-getty.jpg"
+              />
+              <h4>States With Strict Gun Laws Have Fewer Mass Shootings</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <h2 class="red-class-heading">Culture</h2>
+
+      <div class="row main-side-news">
+        <div class="col-md-4 themed-grid-col">
+          <img
+            alt="#"
+            class="main-pic"
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/08/wwe-fastlane-2019-how-watch-online-rey-mysterio-vs-andrade-kickoff.jpg"
+          />
+          <h3>How to Watch WWE Fastlane Online</h3>
+        </div>
+        <div class="col-md-4 themed-grid-col">
+          <img
+            alt="#"
+            class="main-pic"
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/02/25/r.-kelly.jpg"
+          />
+          <h3>R. Kelly Freed After Paying $161K In Child Support</h3>
+        </div>
+        <div class="col-md-4 themed-grid-col">
+          <!--side blocks-->
+          <div class="row side-news">
+            <div class="col-md-12 themed-grid-col">
+              <img
+                alt="#"
+                src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/08/whats-next-kahanna-montrese-after-rupauls-drag-race-elimination.png"
+              />
+              <h4>What's Next For Kahanna Montrese After 'Drag Race?'</h4>
+            </div>
+            <hr />
+
+            <div class="col-md-12 themed-grid-col">
+              <img
+                alt="#"
+                src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/08/snl-tonight-watch-idris-elba-host-saturday-night-live.png"
+              />
+              <h4>Watch Idris Elba Host 'Saturday Night Live'</h4>
+            </div>
+            <hr />
+
+            <div class="col-md-12 themed-grid-col">
+              <img
+                alt="#"
+                src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2018/11/09/2-adnanfootball.jpg"
+              />
+              <h4>'The Case Against Adnan Syed': Who Is Jay Wilds?</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr />
+
+      <h2 class="red-class-heading">Sports</h2>
+
+      <div class="row main-side-news">
+        <div class="col-md-4 themed-grid-col">
+          <img
+            alt="#"
+            class="main-pic"
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/08/antonio-brown-pittsburgh-steelers_0.jpg"
+          />
+          <h3>Antonio Brown Traded to Oakland Raiders</h3>
+        </div>
+        <div class="col-md-4 themed-grid-col">
+          <img
+            alt="#"
+            class="main-pic"
+            src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm/public/2019/03/08/atlanta-united.jpg"
+          />
+          <h3>Atlanta United Vs. FC Cincinnati: TV, Live Stream Info</h3>
+        </div>
+        <div class="col-md-4 themed-grid-col">
+          <!--side blocks-->
+          <div class="row side-news">
+            <div class="col-md-12 themed-grid-col">
+              <img
+                alt="#"
+                src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/08/trackman.jpg"
+              />
+              <h4>MLB Inches Closer To Umpire-Less Future</h4>
+            </div>
+            <hr />
+
+            <div class="col-md-12 themed-grid-col">
+              <img
+                alt="#"
+                src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/08/greene2-2.jpg"
+              />
+              <h4>Meet UFC’s Maurice Greene, the Crochet Boss</h4>
+            </div>
+            <hr />
+
+            <div class="col-md-12 themed-grid-col">
+              <img
+                alt="#"
+                src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/sm_thumb/public/2019/03/08/iaaf-birmingham-diamond-league.jpg"
+              />
+              <h4>Harvard runner suffers ghastly injury after losing shoe</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--________SUBSCRIBE____________-->
+
+      <h6 class="subscribe-heading">SUBSCRIBE</h6>
+
+      <div class="subscribe-block row no-gutters">
+        <div
+          class="col-md-12 col-lg-4 themed-grid-col"
+          style="background:#f4f5f6;align-self:flex-start;padding: 20px;"
+        >
+          <div class="row no-gutters">
+            <div class="only-block col-lg-12 col-md-6 themed-grid-col">
+              <img
+                alt="only"
+                src="https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/package1.png "
+              />
+              <article>
+                <h4>Digital Only</h4>
+                <ul>
+                  <li>
+                    <i class="fas fa-check "></i>
+                    Free access to 40+ digital editions
+                  </li>
+                  <li><i class="fas fa-check "></i> Website access</li>
+                  <li><i class="fas fa-check "></i> Daily Newsletter</li>
+                </ul>
+              </article>
+            </div>
+            <div class="print-block col-lg-12 col-md-6 themed-grid-col">
+              <img
+                alt="print"
+                src="https://s.newsweek.com/sites/www.newsweek.com/themes/newsweek/images/package2.png "
+              />
+              <article>
+                <h4>Print & Digital</h4>
+                <ul>
+                  <li>
+                    <i class="fas fa-check "></i>
+                    Free access to 40+ digital editions
+                  </li>
+                  <li><i class="fas fa-check "></i> Website access</li>
+                  <li><i class="fas fa-check "></i> Daily Newsletter</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+
+          <div class="center">
+            <span class="subscribe-button">Subscribe > </span>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 themed-grid-col"></div>
+
+        <div class="col-md-12 col-lg-4 themed-grid-col">
+          <!--side blocks-->
+
+          <h4 class="most-read">MOST READ</h4>
+          <div class="row side-news no-gutters">
+            <div class="col-md-12 themed-grid-col ">
+              <img
+                alt="# "
+                src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/thumbnail/public/2019/03/09/fake-melania.jpg"
+              />
+              <h4>#FakeMelania Hashtag Rises Again</h4>
+            </div>
+            <hr />
+
+            <div class="col-md-12 themed-grid-col ">
+              <img
+                alt="# "
+                src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/thumbnail/public/2019/03/09/bryde-whale.jpg"
+              />
+              <h4>Diver Describes Being Almost Swallowed by Whale</h4>
+            </div>
+            <hr />
+
+            <div class="col-md-12 themed-grid-col ">
+              <img
+                alt="# "
+                src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/thumbnail/public/2019/03/09/donald-trump-bill-maher-cpac.jpg"
+              />
+              <h4>Bill Maher: CPAC Is 'Woodstock' for 'Mentally Impaired'</h4>
+            </div>
+
+            <div class="col-md-12 themed-grid-col ">
+              <img
+                alt="# "
+                src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/thumbnail/public/2019/03/10/gettyimages-1134480467.jpg"
+              />
+              <h4>Donald Trump Blasts 'Wacky Nut Job' Ann Coulter</h4>
+            </div>
+
+            <div class="col-md-12 themed-grid-col ">
+              <img
+                alt="# "
+                src="https://s.newsweek.com/sites/www.newsweek.com/files/styles/thumbnail/public/2019/03/08/image-00_1.jpg"
+              />
+              <h4>Sharon Stone’s Birthday: Her 20 Best Movies</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-logo row no-gutters">
+        <div class="col-sm-12 col-md-6 themed-grid-col">
+          <a class="brand " href="/"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 395.6 60"
+              style="enable-background:new 0 0 395.6 60;"
+              xml:space="preserve"
+            >
+              <g>
+                <path
+                  class="st0 "
+                  d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2 L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11
+                    c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7 l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6
+                    H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13 c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8 c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2
+                    C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7 h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4 c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1
+                    c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6 c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6 C338,16.1,343.9,25.4,343.9,37.8
+                    M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5 h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9 c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2
+                    c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9 C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6 c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58
+                    M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1 c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6 v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8
+                    M393.5,56.3 c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5 h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6
+                    M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"
+                ></path>
+              </g>
+            </svg>
+          </a>
+          <p class="copyright">© 2019 Newsweek</p>
+        </div>
+
+        <div class="col-sm-12 col-md-6 themed-grid-col block2 ">
+          <p class="icons">
+            <i class="fab fa-facebook-square "></i>
+            <i class="fab fa-twitter "></i>
+            <i class="fab fa-google-plus-g "></i>
+            <i class="fab fa-instagram "></i>
+            <i class="fab fa-linkedin "></i>
+          </p>
+        </div>
+      </div>
+
+      <div class="footer row no-gutters">
+        <div class="col-lg-7 col-md-12 themed-grid-col">
+          <ul>
+            <li><a href="/about-newsweek">About Us</a></li>
+            <li><a href="/corrections">Corrections</a></li>
+            <li><a href="/contact">Contact Us</a></li>
+            <li>
+              <a href="https://www.newsweek.com/editorial-guidelines"
+                >Editorial Guidelines</a
+              >
+            </li>
+            <li><a href="/advertise">Advertise</a></li>
+            <li><a href="/copyright">Copyright</a></li>
+            <li><a href="/terms-service">Terms &amp; Conditions</a></li>
+            <li><a href="/privacy-policy">Privacy Policy</a></li>
+            <li><a href="/cookie-policy">Cookie Policy</a></li>
+            <li><a href="/terms-sale">Terms of Sale</a></li>
+            <li><a href="https://www.newsweek.com/archive">Archive</a></li>
+            <li>
+              <a href="https://www.newsweek.com/announcements">Announcements</a>
+            </li>
+            <li>
+              <a
+                href="javascript:Didomi.preferences.show()"
+                class="change-consent"
+                >Consent preferences</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 offset-lg-1 col-md-12 themed-grid-col">
+            <strong>Editions: </strong>
+            <ul>
+            <li>
+              <a href="https://www.newsweek.com/" class="us-edition-link"
+                >U.S. Edition</a
+              >
+            </li>
+            <li><a href="http://newsweekme.com/">Middle East</a></li>
+            <li><a href="https://www.newsweekjapan.jp/">日本</a></li>
+            <li><a href="http://newsweekkorea.com/">한국</a></li>
+            <li><a href="http://newsweekpakistan.com/">Pakistan</a></li>
+            <li><a href="https://www.newsweek.pl/">Polska</a></li>
+            <li><a href="https://newsweek.ro/">România</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- BOOTSTRAP SCRIPT REQUIREMENTS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
