@@ -8,6 +8,8 @@ _https://rawcdn.githack.com/FabienNeibaf/Using-Bootstrap/9bdd70b19baacd71a2729d2
 ## Screenshot
 ![alt text](https://github.com/FabienNeibaf/Using-Bootstrap/blob/master/assets/images/design.gif)
 
+![alt text](https://github.com/FabienNeibaf/Using-Bootstrap/blob/master/assets/images/design2.gif)
+
 ## Contributors
 
 ### 👤 **SHEY Louis CHIA**
