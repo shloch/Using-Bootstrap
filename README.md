@@ -6,8 +6,7 @@ The live demo is available at:
 _https://rawcdn.githack.com/FabienNeibaf/Using-Bootstrap/9bdd70b19baacd71a2729d2defcb03882dc4ca6a/index.html_
 
 ## Screenshot
-
-
+![alt text](https://github.com/FabienNeibaf/Using-Bootstrap/blob/master/assets/images/design.gif)
 
 ## Contributors
 
