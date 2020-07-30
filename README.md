@@ -21,3 +21,9 @@ _https://rawcdn.githack.com/FabienNeibaf/Using-Bootstrap/9bdd70b19baacd71a2729d2
 
 ## 👤 **Fabien RAKOTOMAMPIANDRA**
 - Fabien RAKOTOMAMPIANDRA _https://github.com/FabienNeibaf_
+
+## Acknowledgements
+- https://raw.githack.com/
+- https://getbootstrap.com/
+- https://fontawesome.com/
+- https://www.newsweek.com/
